@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .menu{
+            list-style:nome;/*remove os pontos*/
+            border:1px solid #c0c0c0;
+            float:left;/*posicionamento*/
+        }
+
+        .menu li{
+            position:relative;/*elemento pai*/
+            float:left;/*um ao lado do outro*/
+            border-right:1px solid #c0c0c0;
+        }
+        .menu li ul{
+            position:absolute;/*sua posição depende de onde está a tag pai*/
+            background-color: #fff;
+            top:20px;
+            display:none;/*deixa a lista oculta*/
+        }
+        .menu li:hover ul{display: block;/*deixa a lista vizivel e organizada em blocos verticais*/
+        }
+        .menu li ul li {
+            border: 1px solid#c0c0c0;
+            display: block;
+            width: 150px;
+        }
+        .menu li a{
+            color: #333;
+            text-decoration: none;
+            padding: 15px 20px;
+            display: block;
+            
+        }
+        .menu li a:hover{
+            background: #333;
+            color: #fff;
+            text-shadow: 0px 0px 5px #fff;/*sombra do texto*/
+        }
+
+    </style>
+</head>
+<body>
+    <ul class="menu">
+        <li><a href="roberto.html"> Cadastro </a></li>
+        <li><a href="float.html"> Aniversario </a></li>
+        <li><a href="helloworld.html"> O que fazemos? </a>
+    <ul>
+        <li><a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiIvqar9MqBAxXcN9QBHQoSCVYYABACGgJvYQ&gclid=EAIaIQobChMIiL6mq_TKgQMV3DfUAR0KEglWEAAYAyAAEgJBQPD_BwE&ohost=www.google.com&cid=CAASJORo5cr87Zd7rIqAf3SB1Usu7BjyHFaWUdgUdl35QEsJ1TsdPg&sig=AOD64_0hGMFn4x4Ss5Mar82GomagmhYnkQ&q&adurl&ved=2ahUKEwjK5pir9MqBAxX8p5UCHfxRDFoQ0Qx6BAgEEAE"> Web Design </a></li>
+        <li><a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjK4f7-88qBAxWcTH8AHWbOBmEYABABGgJvYQ&gclid=EAIaIQobChMIyuH-_vPKgQMVnEx_AB1mzgZhEAAYASAAEgLOkPD_BwE&ohost=www.google.com&cid=CAASJORo77syINOEsEeLqqlqtsAEX4GyMtRWO3BhdTxAo4ALvAbd2g&sig=AOD64_1LS8Z2D1Ce4SEq64K87_1USqYEuw&q&adurl&ved=2ahUKEwjtvPP-88qBAxW1ppUCHd5MAVwQ0Qx6BAgIEAE"> SEO </a></li>
+        <li><a href="https://www.designi.com.br/"> Design </a></li>
+    </ul>
+</li>
+<li><a href="https://www.santosfc.com.br/"> Santos FC </a></li>
+<li><a href="https://github.com/robertomello7/Atividade-"> Contato </a></li>
+</ul>
+
+</body>
+</html>
